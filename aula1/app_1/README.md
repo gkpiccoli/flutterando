@@ -1,4 +1,8 @@
-# app_1
+# Primeiros passos - Como se constrói uma tela :
+
+A tela é criada com 'widgets' desenhando os pixels de parte ou toda tela, construindo uma árvore de widgets. 
+O Flutter é  declaratrivo (não precisa de linguagem de marcação) e utiliza orientação à objetos. 
+Processo de construção de tela e animações são mais dinâmicos.
 
 A new Flutter project.
 

@@ -6,10 +6,9 @@ Material App
 
 MaterialApp é usada como a base da maioria dos projetos (cupertido será tratado mais a frente?)
 Componentização de widgets para melhor estruturação e legibilidade do código.
-Para criar uma page 
+Para criar uma page
 
-
-
+Analysis_options.yaml = Regras para notificações no código.
 
 ## Getting Started
 

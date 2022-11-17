@@ -7,16 +7,9 @@ Tudo no Flutter é WIDGET.
 Nesse projeto usamos tanto o widget center, quanto o text, além da centralização do texto.
 Conceitos de herança de widgets pai e filho.
 
-A new Flutter project.
+
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,

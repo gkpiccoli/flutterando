@@ -1,6 +1,8 @@
-# app_4
+# Scaffold
 
-A new Flutter project.
+Scaffold > App Bar > Button
+
+Nessa aplicação foi criado uma app bar, um corpo e um botão. Observe que o flutter cria os 'filhos' que herdam as caracteristicas do pai, no caso do botao pai no canto inferior direito, o filho é o ícone de adicionar (+), que se encontra alocado dentro do widget pai. Note que a aplicação é Stateless, ou seja, é uma página estática, e o botão por mais que animado ao clicar, não retorna nenhum valor a tela (por enquanto).
 
 ## Getting Started
 

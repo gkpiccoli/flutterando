@@ -8,7 +8,7 @@ MaterialApp é usada como a base da maioria dos projetos (cupertido será tratad
 Componentização de widgets para melhor estruturação e legibilidade do código.
 Para criar uma page
 
-Analysis_options.yaml = Regras para notificações no código.
+Analysis_options.yaml = Regras para notificações no código (warnings) exemplo é a inserção de const nas constantes para construção das variáveis.
 
 ## Getting Started
 

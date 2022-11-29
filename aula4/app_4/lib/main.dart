@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
 
+import 'app_widget.dart';
+
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePage(),
-    );
-  }
-}
+
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -22,13 +15,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Flutter'),
+        title: const Text('Flutter'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Gustavo'),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
         onPressed: () {},
       ),
     );

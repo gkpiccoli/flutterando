@@ -16,7 +16,16 @@ class _PaginaInicialState extends State<PaginaInicial> {
       appBar: AppBar(
         title: const Text('Flutter'),
       ),
-      body: Center(child: Text('Você pressionou o botão $_count vezes.')),
+      body: Column(
+        children: [
+          Center(child: Text('Você pressionou o botão $_count vezes.')),
+          Container(
+            height: 50,
+            width: 50,
+            color: Colors.amber,
+          )
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => setState(() => _count++),
         tooltip: 'Adicionar Item',
